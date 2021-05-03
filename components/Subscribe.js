@@ -20,8 +20,6 @@ const Subscribe = () => {
       },
       method: "POST",
     });
-    // console.log("stringify:", JSON.stringify({ email: inputEl.current.value }));
-    console.log("regular:", inputEl.current.value);
 
     const { error } = await res.json();
 
